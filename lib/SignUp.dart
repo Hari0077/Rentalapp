@@ -256,7 +256,7 @@ class _SignUpState extends State<SignUp> {
                       child: TextFormField(
                           validator: (input) {
                             if (input.length < 8)
-                              return 'Provide Minimum 6 Character';
+                              return 'Provide Minimum 8 Character';
                           },
                           decoration: InputDecoration(
                             labelText: 'Password',
